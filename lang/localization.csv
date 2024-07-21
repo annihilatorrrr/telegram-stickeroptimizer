@@ -8,7 +8,8 @@ about,changelog,<b>Changelog:</b> :value,<b>Changelog:</b> :value,<b>Lista zmian
 about,developer,👤 Developer,👤 Developer,👤 Programista
 about,email,<b>Email:</b> :value,<b>Email:</b> :value,<b>E-mail:</b> :value
 about,website,<b>Website:</b> :value,<b>Website:</b> :value,<b>Strona internetowa:</b> :value
-start,description,"Just send me an image or sticker, and I will convert it to a png file and optimized it to make its size smaller than or equal to 512Kb, so that you will be able to add it to a sticker pack using the @stickers bot.",Inviami una foto o uno sticker e io lo convertirò in un file png ottimizzato per renderlo minore o uguale a 512Kb così che sia pronto per aggiungerlo ad uno sticker pack utilizzando il bot @stickers.,"Wystarczy wysłać mi obrazek lub naklejkę a ja przekonwertuję go do pliku png i zoptymalizuję, aby jego rozmiar był mniejszy lub równy 512Kb, aby było możliwe dodać go do pakietu naklejek za pomocą bota @stickers."
+start,description.sticker,"Just send me an image or sticker, and I will convert it to a png file and optimized it to make its size smaller than or equal to 512Kb, so that you will be able to add it to a sticker pack using the @stickers bot.",Inviami una foto o uno sticker e io lo convertirò in un file png ottimizzato per renderlo minore o uguale a 512Kb così che sia pronto per aggiungerlo ad uno sticker pack utilizzando il bot @stickers.,"Wystarczy wysłać mi obrazek lub naklejkę a ja przekonwertuję go do pliku png i zoptymalizuję, aby jego rozmiar był mniejszy lub równy 512Kb, aby było możliwe dodać go do pakietu naklejek za pomocą bota @stickers."
+start,description.video,"For videos or GIFs, I can optimize them to a WEBM file smaller than or equal to 256KB, allowing you to add them to a video sticker pack.","Per i video o le GIF, posso ottimizzarli in un file WEBM di dimensioni pari o inferiori a 256KB, consentendovi di aggiungerli a un pacchetto di adesivi video.","W przypadku filmów lub GIF-ów mogę zoptymalizować je do pliku WEBM o rozmiarze mniejszym lub równym 256 KB, umożliwiając dodanie ich do pakietu naklejek wideo."
 maintenance,title,Bot currently in maintenance mode.,Bot in manutenzione.,Bot jest obecnie w trybie konserwacji.
 maintenance,back,It will be back soon!,Tornerà presto online!,Wkrótce wróci!
 maintenance,offline,Bot currently offline.,Bot offline.,Bot jest obecnie offline.
@@ -40,14 +41,15 @@ feedback,thanks,Thank you for your feedback!,Grazie per il tuo feedback!,Dzięku
 feedback,wrong,Invalid content. Please send only text.,Contenuto invalido. Per favore inserisci solo del testo.,Nieprawidłowa zawartość. Proszę wprowadzić tylko tekst.
 donate,donation,Donation,Donazione,Darowizna
 donate,support_by_donating,Support this bot by donating,Supporta questo bot donando,Wspomóż tego bota poprzez dotację
-donate,select_amount,Select the amount you wish to donate:,Seleziona la quantità che desideri donare:,"Wybierz kwotę, jaką chcesz przekazać:"
+donate,select_amount,Enter the number of Telegram Stars you would like to donate:,Inserisci il numero di Telegram Stars che desideri donare:,"Wprowadź liczbę gwiazdek Telegram, które chcesz przekazać:"
 donate,consider_donation,"If you want to support my work, please consider making a donation.","Se vuoi supportare il mio lavoro, per favore considera una donazione.","Jeśli chcesz wesprzeć moją pracę, rozważ przekazanie darowizny."
 donate,appreciated,That'll be very much appreciated 😊,Verrà molto apprezzato 😊,To będzie bardzo miłe 😊
 donate,terms,Terms and conditions for donation payments,Termini e condizioni per le donazioni,Zasady i warunki płatności darowizn
 donate,thanks,Thank you for your donation!,Grazie per la tua donazione!,Dziękujemy za wsparcie!
 donate,with,Donate with :service,Dona con :service,Wesprzyj za pomocą :service
 stats,title,📊 Statistics,📊 Statistiche,📊 Statystyki
-stats,category.optimized,🖼 Stickers optimized,🖼 Sticker ottimizzati,🖼 Naklejki zoptymalizowane
+stats,category.optimized.stickers,🖼 Stickers optimized,🖼 Sticker ottimizzati,🖼 Naklejki zoptymalizowane
+stats,category.optimized.videos,🎬 Videos optimized,🎬 Video ottimizzati,🎬 Zoptymalizowane naklejki
 stats,category.new_users,👥 Users,👥 Utenti,👥 Wszyscy
 stats,category.active_users,✳️ Active users,✳️ Utenti attivi,✳️ Aktywni użytkownicy
 stats,last_update,Last update:,Ultimo aggiornamento:,Ostatnia aktualizacja:
@@ -93,3 +95,6 @@ stats,range.year,This year: :value,Quest'anno: :value,
 stats,range.yesterday,Yesterday: :value,Ieri: :value,
 settings,trim.enable,✂️ Trim transparent areas,✂️ Ritaglia aree trasparenti,
 settings,trim.disable,✂️ Do not trim transparent areas,✂️ Non ritagliare aree trasparenti,
+donate,invalid,Please enter a number greater than 0.,Inserire un numero maggiore di 0.,Wprowadź liczbę większą niż 0.
+optimize,running,Optimizing the file...,Sto ottimizzando il file...,Optymalizacja pliku...
+optimize,error,Optimization failed.,Ottimizzazione fallita.,Optymalizacja nie powiodła się.
